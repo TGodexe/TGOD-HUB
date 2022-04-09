@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("TGod Hub", "Midnight")
 
 
--- SLAP Battles
+-- script
 
 local Tab = Window:NewTab("MAIN MENU")
 local Section = Tab:NewSection("Slap Battles")
@@ -11,20 +11,12 @@ Section:NewButton("Slap aura", "WORKING", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/slap-aura/main/Slap%20aura.lua"))()
 end)
 
-
--- Admin
-
-local Tab = Window:NewTab("ADMIN")
 local Section = Tab:NewSection("Admin CMD")
 
 Section:NewButton("infinite Yield", "WORKING", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
-
--- Bloxfruits
-
-local Tab = Window:NewTab("BloxFruits")
 local Section = Tab:NewSection("BloxFruits Script")
 
 Section:NewButton("Ren Hub", "WORKING", function()
@@ -43,10 +35,6 @@ Section:NewButton("Ren Hub Mobile", "WORKING", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free'))()
 end)
 
-
--- PSX
-
-local Tab = Window:NewTab("Pet Simulator X")
 local Section = Tab:NewSection("Pet Simulator X Script")
 
 Section:NewButton("BlackTrap", "WORKING", function()
@@ -61,19 +49,12 @@ Section:NewButton("Mini farming Gui", "WORKING", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/fttSzNs8'))()
 end)
 
-
--- Combat Warriors
-
-local Tab = Window:NewTab("Combat Warriors")
 local Section = Tab:NewSection("Combat warrior Script")
 
 Section:NewButton("Project-Hook", "WORKING", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiritXmas/Project-Hook/main/required.lua"))()
 end)
 
--- SkyWars
-
-local Tab = Window:NewTab("Skywars")
 local Section = Tab:NewSection("Skywars Script")
 
 Section:NewButton("Cihonax Hub", "WORKING", function()
@@ -92,29 +73,18 @@ Section:NewButton("Sight Hub", "WORKING", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/sight-hub/main/sight%20hub"))()
 end)
 
-
---bedwars
-
-local Tab = Window:NewTab("BedWars")
 local Section = Tab:NewSection("BedWars Script")
 
 Section:NewButton("Vape V4", "WORKING", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
 
-
--- Shark bite
-
-local Tab = Window:NewTab("Shark Bite")
 local Section = Tab:NewSection("Shark Bite Script")
 
 Section:NewButton("Shark Bite Gui", "WORKING", function()
     loadstring(game:GetObjects("rbxassetid://3623753581")[1].Source)()
 end)
 
--- Universal
-
-local Tab = Window:NewTab("Universal")
 local Section = Tab:NewSection("Universal Script")
 
 Section:NewButton("Anti AFK", "WORKING", function()
@@ -141,20 +111,12 @@ Section:NewButton("Server Browser", "Working", function()
     loadstring(game:HttpGet("https://www.scriptblox.com/raw/Server-Browser_80", true))();
 end)
 
-
--- all star
-
-local Tab = Window:NewTab("All Star tower Defense")
 local Section = Tab:NewSection("All Star Script")
 
 Section:NewButton("All Star tower Defense OP", "WORKING", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/KarmaPanda/Roblox/main/astd-aio.lua'))()
 end)
 
-
--- A one piece game
-
-local Tab = Window:NewTab("A One Piece Game")
 local Section = Tab:NewSection("A One Piece Script")
 
 Section:NewButton("A One Piece Game OP", "WORKING", function()
@@ -162,40 +124,24 @@ Section:NewButton("A One Piece Game OP", "WORKING", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Shisobad/new/main/script.lua"))()
 end)
 
-
--- Encounters
-
-local Tab = Window:NewTab("Encounters")
 local Section = Tab:NewSection("Encounters Script")
 
 Section:NewButton("Encounters OP", "WORKING", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/Encounters/main/Encounters"))()
 end)
 
-
--- dahood
-
-local Tab = Window:NewTab("Da Hood")
 local Section = Tab:NewSection("Da Hood Script")
 
 Section:NewButton("Da Hood OP", "WORKING", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 end)
 
-
--- funky friday
-
-local Tab = Window:NewTab("funky friday")
 local Section = Tab:NewSection("funky friday Script")
 
 Section:NewButton("funky friday autoplay", "WORKING", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
 end)
 
-
--- NO Scope Arcade
-
-local Tab = Window:NewTab("No Scope Arcade")
 local Section = Tab:NewSection("No Scope Arcade Script")
 
 Section:NewButton("No Scope Arcade", "WORKING", function()
@@ -206,10 +152,6 @@ Section:NewButton("No Scope Arcade Gui", "WORKING", function()
     loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jLn0n/scripts/main/game-scripts/no-scope-arcade-gui.lua"))()
 end)
 
-
--- KAT
-
-local Tab = Window:NewTab("KAT")
 local Section = Tab:NewSection("KAT Script")
 
 Section:NewButton("Silent Aim", "WORKING", function()
