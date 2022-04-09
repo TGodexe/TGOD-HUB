@@ -97,6 +97,15 @@ Section:NewButton("Sight Hub", "WORKING", function()
 end)
 
 
+--bedwars
+
+local Tab = Window:NewTab("BedWars")
+local Section = Tab:NewSection("BedWars Script")
+
+Section:NewButton("Vape V4", "WORKING", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
 -- Universal
 
 local Tab = Window:NewTab("Universal")
