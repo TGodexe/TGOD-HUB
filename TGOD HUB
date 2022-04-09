@@ -1,0 +1,76 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("TGod Hub", "Midnight")
+
+
+-- SLAP AURA
+
+local Tab = Window:NewTab("MAIN MENU")
+local Section = Tab:NewSection("Slap Battles")
+
+Section:NewButton("Slap aura", "WORKING", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/slap-aura/main/Slap%20aura.lua"))()
+end)
+
+
+-- Admin
+
+local Tab = Window:NewTab("ADMIN")
+local Section = Tab:NewSection("Admin CMD")
+
+Section:NewButton("infinite Yield", "WORKING", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+
+-- Bloxfruits
+
+local Tab = Window:NewTab("BloxFruits")
+local Section = Tab:NewSection("BloxFruits Script")
+
+Section:NewButton("Ren Hub", "WORKING", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TGodexe/ren-hub-src-code/main/ren%20hub'))()
+end)
+
+Section:NewButton("Mukuro Hub", "WORKING", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+
+Section:NewButton("Mukuro Hub", "WORKING", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+
+Section:NewButton("Ren Hub Mobile", "WORKING", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free'))()
+end)
+
+
+-- PSX
+
+local Tab = Window:NewTab("Pet Simulator X")
+local Section = Tab:NewSection("Pet Simulator X Script")
+
+Section:NewButton("BlackTrap", "WORKING", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/BdvUGb2q"))()
+end)
+
+Section:NewButton("PSX", "WORKING", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
+end)
+
+Section:NewButton("Mini farming Gui", "WORKING", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/fttSzNs8'))()
+end)
+
+
+-- Universal
+
+ local Tab = Window:NewTab("Universal")
+local Section = Tab:NewSection("Universal Script")
+
+Section:NewButton("Anti AFK", "WORKING", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/Anti-AFK-script/main/Anti%20afk"))()
+end)
+
+Section:NewButton("ESP", "B OPEN ESP", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/Esp/main/ESP"))()
+end)
