@@ -205,3 +205,13 @@ end)
 Section:NewButton("No Scope Arcade Gui", "WORKING", function()
     loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jLn0n/scripts/main/game-scripts/no-scope-arcade-gui.lua"))()
 end)
+
+
+-- KAT
+
+local Tab = Window:NewTab("KAT")
+local Section = Tab:NewSection("KAT Script")
+
+Section:NewButton("Silent Aim", "WORKING", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TGodexe/kat/main/kat'))()
+end)
