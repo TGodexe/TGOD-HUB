@@ -53,7 +53,7 @@ Section:NewButton("BlackTrap", "WORKING", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/BdvUGb2q"))()
 end)
 
-Section:NewButton("PSX", "WORKING", function()
+Section:NewButton("Maru gui", "WORKING", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
 end)
 
@@ -69,6 +69,31 @@ local Section = Tab:NewSection("Combat warrior Script")
 
 Section:NewButton("Project-Hook", "WORKING", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiritXmas/Project-Hook/main/required.lua"))()
+end)
+
+-- SkyWars
+
+local Tab = Window:NewTab("Skywars")
+local Section = Tab:NewSection("Skywars Script")
+
+Section:NewButton("Cihonax Hub", "WORKING", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/juNstring/cracks/main/Cihonax/Loader.lua"))()
+
+--[[ they released a ""newer"" version (which is the same LMFAO) with the same skidded code. the dumbass forgot how bitch and low iq he is. so the whitelist still ass LOL stay with no bitches
+there you go the version without retarded logger/key
+
+if game.PlaceId == 855499080 then
+hookfunction(loadstring(game:HttpGet("https://raw.githubusercontent.com/cfeciefe/qH4lF2gC3yM2vG6j/main/skygs", true))(), print("Skywars"))
+end
+--]]
+end)
+
+Section:NewButton("Skywars Gui OP", "WORKING", function()
+    loadstring(game:HttpGet("https://uraniumhub.tk/storage/script.lua", true))()
+end)
+
+Section:NewButton("Sight Hub", "WORKING", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/sight-hub/main/sight%20hub"))()
 end)
 
 
