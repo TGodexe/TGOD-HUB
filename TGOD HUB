@@ -113,3 +113,11 @@ end)
 Section:NewButton("Chat Bot", "Working", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/chat-bot/main/bot"))()
 end)
+
+Section:NewButton("Hitbox Extender", "Working", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/hitbox/main/hitbox"))()
+end)
+
+Section:NewButton("HD Graphics", "Working", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/HD-GRAPHICS/main/hd%20graphics"))()
+end)
