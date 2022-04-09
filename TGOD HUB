@@ -62,9 +62,19 @@ Section:NewButton("Mini farming Gui", "WORKING", function()
 end)
 
 
+-- Combat Warriors
+
+local Tab = Window:NewTab("Combat Warriors")
+local Section = Tab:NewSection("Combat warrior Script")
+
+Section:NewButton("Project-Hook", "WORKING", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiritXmas/Project-Hook/main/required.lua"))()
+end)
+
+
 -- Universal
 
- local Tab = Window:NewTab("Universal")
+local Tab = Window:NewTab("Universal")
 local Section = Tab:NewSection("Universal Script")
 
 Section:NewButton("Anti AFK", "WORKING", function()
@@ -73,4 +83,8 @@ end)
 
 Section:NewButton("ESP", "B OPEN ESP", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/Esp/main/ESP"))()
+end)
+
+Section:NewButton("Chat Bot", "Working", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/chat-bot/main/bot"))()
 end)
