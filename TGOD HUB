@@ -88,10 +88,6 @@ end
 --]]
 end)
 
-Section:NewButton("Skywars Gui OP", "WORKING", function()
-    loadstring(game:HttpGet("https://uraniumhub.tk/storage/script.lua", true))()
-end)
-
 Section:NewButton("Sight Hub", "WORKING", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/sight-hub/main/sight%20hub"))()
 end)
@@ -105,6 +101,7 @@ local Section = Tab:NewSection("BedWars Script")
 Section:NewButton("Vape V4", "WORKING", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
+
 
 -- Universal
 
