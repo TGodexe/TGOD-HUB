@@ -1,114 +1,15 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("TGod Hub", "Midnight")
+local Window = Library.CreateLib("TGod Hub", "Synapse")
 
 
 -- Script
 
 local Tab = Window:NewTab("MAIN MENU")
-local Section = Tab:NewSection("Slap Battles")
-
-Section:NewButton("Slap aura", "WORKING", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/slap-aura/main/Slap%20aura.lua"))()
-end)
-
-
---admin
-
 local Section = Tab:NewSection("Admin CMD")
 
 Section:NewButton("infinite Yield", "WORKING", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
-
-
--- bloxfruit
-
-local Section = Tab:NewSection("BloxFruits Script")
-
-Section:NewButton("Ren Hub", "WORKING", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/TGodexe/ren-hub-src-code/main/ren%20hub'))()
-end)
-
-Section:NewButton("Mukuro Hub", "WORKING", function()
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
-end)
-
-Section:NewButton("Mukuro Hub", "WORKING", function()
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
-end)
-
-Section:NewButton("Ren Hub Mobile", "WORKING", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free'))()
-end)
-
-
--- pet simulator x
-
-local Section = Tab:NewSection("Pet Simulator X Script")
-
-Section:NewButton("BlackTrap", "WORKING", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/BdvUGb2q"))()
-end)
-
-Section:NewButton("Maru gui", "WORKING", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
-end)
-
-Section:NewButton("Mini farming Gui", "WORKING", function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/fttSzNs8'))()
-end)
-
-Section:NewButton("SAZA HUB", "WORKING", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/kB7CVpBd"))()
-end)
-
---combat warrior
-
-local Section = Tab:NewSection("Combat warrior Script")
-
-Section:NewButton("Project-Hook", "WORKING", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiritXmas/Project-Hook/main/required.lua"))()
-end)
-
-
---skywars
-
-local Section = Tab:NewSection("Skywars Script")
-
-Section:NewButton("Cihonax Hub", "WORKING", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/juNstring/cracks/main/Cihonax/Loader.lua"))()
-
---[[ they released a ""newer"" version (which is the same LMFAO) with the same skidded code. the dumbass forgot how bitch and low iq he is. so the whitelist still ass LOL stay with no bitches
-there you go the version without retarded logger/key
-
-if game.PlaceId == 855499080 then
-hookfunction(loadstring(game:HttpGet("https://raw.githubusercontent.com/cfeciefe/qH4lF2gC3yM2vG6j/main/skygs", true))(), print("Skywars"))
-end
---]]
-end)
-
-Section:NewButton("Sight Hub", "WORKING", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/sight-hub/main/sight%20hub"))()
-end)
-
-
---bedwars
-
-local Section = Tab:NewSection("BedWars Script")
-
-Section:NewButton("Vape V4", "WORKING", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
-end)
-
-
---shark bite
-
-local Section = Tab:NewSection("Shark Bite Script")
-
-Section:NewButton("Shark Bite Gui", "WORKING", function()
-    loadstring(game:GetObjects("rbxassetid://3623753581")[1].Source)()
-end)
-
 
 --universal
 
@@ -139,17 +40,128 @@ Section:NewButton("Server Browser", "Working", function()
 end)
 
 
+-- slap battles
+
+local Tab = Window:NewTab("Slap Battles")
+local Section = Tab:NewSection("Slap Battles")
+
+Section:NewButton("Slap aura", "WORKING", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/slap-aura/main/Slap%20aura.lua"))()
+end)
+
+
+-- bloxfruit
+
+local Tab = Window:NewTab("BloxFruits")
+local Section = Tab:NewSection("BloxFruits Script")
+
+Section:NewButton("Ren Hub", "WORKING", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TGodexe/ren-hub-src-code/main/ren%20hub'))()
+end)
+
+Section:NewButton("Mukuro Hub", "WORKING", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+
+Section:NewButton("River Hub", "WORKING", function()
+    loadstring(game:HttpGet"https://pastebin.com/raw/1jnikzbm")()
+end)
+
+Section:NewButton("Ren Hub Mobile", "WORKING", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free'))()
+end)
+
+
+-- pet simulator x
+
+local Tab = Window:NewTab("Pet Simulator X")
+local Section = Tab:NewSection("Pet Simulator X Script")
+
+Section:NewButton("BlackTrap", "WORKING", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/BdvUGb2q"))()
+end)
+
+Section:NewButton("Maru gui", "WORKING", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
+end)
+
+Section:NewButton("Mini farming Gui", "WORKING", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/fttSzNs8'))()
+end)
+
+Section:NewButton("SAZA HUB", "WORKING", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/kB7CVpBd"))()
+end)
+
+--combat warrior
+
+local Tab = Window:NewTab("Combat Warrior")
+local Section = Tab:NewSection("Combat warrior Script")
+
+Section:NewButton("Project-Hook", "WORKING", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiritXmas/Project-Hook/main/required.lua"))()
+end)
+
+
+--skywars
+
+local Tab = Window:NewTab("SkyWars 8Bit")
+local Section = Tab:NewSection("Skywars Script")
+
+Section:NewButton("Cihonax Hub", "WORKING", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/juNstring/cracks/main/Cihonax/Loader.lua"))()
+
+--[[ they released a ""newer"" version (which is the same LMFAO) with the same skidded code. the dumbass forgot how bitch and low iq he is. so the whitelist still ass LOL stay with no bitches
+there you go the version without retarded logger/key
+
+if game.PlaceId == 855499080 then
+hookfunction(loadstring(game:HttpGet("https://raw.githubusercontent.com/cfeciefe/qH4lF2gC3yM2vG6j/main/skygs", true))(), print("Skywars"))
+end
+--]]
+end)
+
+Section:NewButton("Sight Hub", "WORKING", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/sight-hub/main/sight%20hub"))()
+end)
+
+
+--bedwars
+
+local Tab = Window:NewTab("BedWars")
+local Section = Tab:NewSection("BedWars Script")
+
+Section:NewButton("Vape V4", "WORKING", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+
+--shark bite
+
+local Tab = Window:NewTab("Shark Bite")
+local Section = Tab:NewSection("Shark Bite Script")
+
+Section:NewButton("Shark Bite Gui", "WORKING", function()
+    loadstring(game:GetObjects("rbxassetid://3623753581")[1].Source)()
+end)
+
+
 --all star
 
-local Section = Tab:NewSection("All Star Script")
+local Tab = Window:NewTab("All Star Tower Defense")
+local Section = Tab:NewSection("All Star tower Defense Script")
 
 Section:NewButton("All Star tower Defense OP", "WORKING", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/KarmaPanda/Roblox/main/astd-aio.lua'))()
 end)
 
+Section:NewButton("River Hub", "WORKING", function()
+    loadstring(game:HttpGet"https://pastebin.com/raw/1jnikzbm")()
+end)
+
 
 -- a one piece
 
+local Tab = Window:NewTab("A One Piece Game")
 local Section = Tab:NewSection("A One Piece Script")
 
 Section:NewButton("A One Piece Game OP", "WORKING", function()
@@ -160,6 +172,7 @@ end)
 
 --encounters
 
+local Tab = Window:NewTab("Encounters")
 local Section = Tab:NewSection("Encounters Script")
 
 Section:NewButton("Encounters OP", "WORKING", function()
@@ -169,6 +182,7 @@ end)
 
 --dahood
 
+local Tab = Window:NewTab("Da Hood")
 local Section = Tab:NewSection("Da Hood Script")
 
 Section:NewButton("Da Hood OP", "WORKING", function()
@@ -178,6 +192,7 @@ end)
 
 -- funky friday
 
+local Tab = Window:NewTab("funky friday")
 local Section = Tab:NewSection("funky friday Script")
 
 Section:NewButton("funky friday autoplay", "WORKING", function()
@@ -187,6 +202,7 @@ end)
 
 --no scope
 
+local Tab = Window:NewTab("No Scope Arcade")
 local Section = Tab:NewSection("No Scope Arcade Script")
 
 Section:NewButton("No Scope Arcade", "WORKING", function()
@@ -200,6 +216,7 @@ end)
 
 --kat
 
+local Tab = Window:NewTab("KAT")
 local Section = Tab:NewSection("KAT Script")
 
 Section:NewButton("Silent Aim", "WORKING", function()
@@ -209,6 +226,7 @@ end)
 
 --king legacy
 
+local Tab = Window:NewTab("King Legacy")
 local Section = Tab:NewSection("King Legacy Script")
 
 Section:NewButton("Master Hub V2", "WORKING", function()
@@ -217,4 +235,19 @@ end)
 
 Section:NewButton("Sannin Hub", "WORKING", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/sannin9000/scripts/main/kinglegacy.lua%22))()
+end)
+
+Section:NewButton("River Hub", "WORKING", function()
+    loadstring(game:HttpGet"https://pastebin.com/raw/1jnikzbm")()
+end)
+
+-- Test
+
+local Tab = Window:NewTab("TEST")
+Section:NewToggle("ToggleText", "ToggleInfo", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
 end)
