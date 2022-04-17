@@ -52,7 +52,6 @@ end)
 
 -- bloxfruit
 
-local Tab = Window:NewTab("BloxFruits")
 local Section = Tab:NewSection("BloxFruits Script")
 
 Section:NewButton("Ren Hub", "WORKING", function()
@@ -74,7 +73,6 @@ end)
 
 -- pet simulator x
 
-local Tab = Window:NewTab("Pet Simulator X")
 local Section = Tab:NewSection("Pet Simulator X Script")
 
 Section:NewButton("BlackTrap", "WORKING", function()
@@ -95,7 +93,6 @@ end)
 
 --combat warrior
 
-local Tab = Window:NewTab("Combat Warrior")
 local Section = Tab:NewSection("Combat warrior Script")
 
 Section:NewButton("Project-Hook", "WORKING", function()
@@ -105,7 +102,6 @@ end)
 
 --skywars
 
-local Tab = Window:NewTab("SkyWars 8Bit")
 local Section = Tab:NewSection("Skywars Script")
 
 Section:NewButton("Cihonax Hub", "WORKING", function()
@@ -127,7 +123,6 @@ end)
 
 --bedwars
 
-local Tab = Window:NewTab("BedWars")
 local Section = Tab:NewSection("BedWars Script")
 
 Section:NewButton("Vape V4", "WORKING", function()
@@ -137,7 +132,6 @@ end)
 
 --shark bite
 
-local Tab = Window:NewTab("Shark Bite")
 local Section = Tab:NewSection("Shark Bite Script")
 
 Section:NewButton("Shark Bite Gui", "WORKING", function()
@@ -147,7 +141,6 @@ end)
 
 --all star
 
-local Tab = Window:NewTab("All Star Tower Defense")
 local Section = Tab:NewSection("All Star tower Defense Script")
 
 Section:NewButton("All Star tower Defense OP", "WORKING", function()
@@ -161,7 +154,6 @@ end)
 
 -- a one piece
 
-local Tab = Window:NewTab("A One Piece Game")
 local Section = Tab:NewSection("A One Piece Script")
 
 Section:NewButton("A One Piece Game OP", "WORKING", function()
@@ -172,7 +164,6 @@ end)
 
 --encounters
 
-local Tab = Window:NewTab("Encounters")
 local Section = Tab:NewSection("Encounters Script")
 
 Section:NewButton("Encounters OP", "WORKING", function()
@@ -182,7 +173,6 @@ end)
 
 --dahood
 
-local Tab = Window:NewTab("Da Hood")
 local Section = Tab:NewSection("Da Hood Script")
 
 Section:NewButton("Da Hood OP", "WORKING", function()
@@ -192,7 +182,6 @@ end)
 
 -- funky friday
 
-local Tab = Window:NewTab("funky friday")
 local Section = Tab:NewSection("funky friday Script")
 
 Section:NewButton("funky friday autoplay", "WORKING", function()
@@ -202,7 +191,6 @@ end)
 
 --no scope
 
-local Tab = Window:NewTab("No Scope Arcade")
 local Section = Tab:NewSection("No Scope Arcade Script")
 
 Section:NewButton("No Scope Arcade", "WORKING", function()
@@ -216,7 +204,6 @@ end)
 
 --kat
 
-local Tab = Window:NewTab("KAT")
 local Section = Tab:NewSection("KAT Script")
 
 Section:NewButton("Silent Aim", "WORKING", function()
@@ -226,7 +213,6 @@ end)
 
 --king legacy
 
-local Tab = Window:NewTab("King Legacy")
 local Section = Tab:NewSection("King Legacy Script")
 
 Section:NewButton("Master Hub V2", "WORKING", function()
@@ -244,7 +230,6 @@ end)
 
 --king legacy
 
-local Tab = Window:NewTab("LUCKY BLOCKS Battlegrounds")
 local Section = Tab:NewSection("LUCKY BLOCKS Battlegrounds Script")
 
 Section:NewButton("Inf Lucky Block", "WORKING", function()
