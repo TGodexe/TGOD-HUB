@@ -241,6 +241,17 @@ Section:NewButton("River Hub", "WORKING", function()
     loadstring(game:HttpGet"https://pastebin.com/raw/1jnikzbm")()
 end)
 
+
+--king legacy
+
+local Tab = Window:NewTab("LUCKY BLOCKS Battlegrounds")
+local Section = Tab:NewSection("LUCKY BLOCKS Battlegrounds Script")
+
+Section:NewButton("Inf Lucky Block", "WORKING", function()
+    loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/LUCKY-BLOCKS-Battlegrounds/main/LUCKY%20BLOCKS%20Battlegrounds))()'))()
+end)
+
+
 -- Test
 
 local Tab = Window:NewTab("TEST")
